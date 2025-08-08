@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {"id": 1, "name": "Alice Johnson", "skills": ["Python", "React", "AWS"], "experience_years": 5, "projects": ["E-commerce Platform", "Healthcare Dashboard"], "availability": "available"},
+    {"id": 2, "name": "Bob Smith", "skills": ["Java", "Spring", "Docker", "Kubernetes"], "experience_years": 7, "projects": ["Banking Core System", "Microservices Migration"], "availability": "unavailable"},
+    {"id": 3, "name": "Carol Martinez", "skills": ["Python", "Machine Learning", "TensorFlow", "Healthcare"], "experience_years": 6, "projects": ["Medical Diagnosis Platform", "Clinical Trial Analytics"], "availability": "available"},
+    {"id": 4, "name": "David Lee", "skills": ["React Native", "TypeScript", "GraphQL"], "experience_years": 4, "projects": ["Mobile Shopping App", "Fitness Tracker"], "availability": "soon"},
+    {"id": 5, "name": "Erin O'Neil", "skills": ["Data Engineering", "Python", "Airflow", "AWS"], "experience_years": 8, "projects": ["Data Lake Ingestion", "ETL Modernization"], "availability": "available"},
+    {"id": 6, "name": "Frank Wu", "skills": ["Go", "Docker", "AWS", "gRPC"], "experience_years": 5, "projects": ["Realtime Analytics", "Edge Computing Platform"], "availability": "available"},
+    {"id": 7, "name": "Grace Kim", "skills": ["UI/UX", "Figma", "React"], "experience_years": 3, "projects": ["Design System", "Telemedicine App"], "availability": "available"},
+    {"id": 8, "name": "Henry Zhao", "skills": ["DevOps", "AWS", "Terraform", "Docker"], "experience_years": 6, "projects": ["CI/CD Overhaul", "Cloud Cost Optimization"], "availability": "on_leave"},
+    {"id": 9, "name": "Isha Patel", "skills": ["Python", "NLP", "HuggingFace", "Healthcare"], "experience_years": 4, "projects": ["Patient Chatbot", "Clinical Notes Summarizer"], "availability": "available"},
+    {"id": 10, "name": "Jamal Carter", "skills": ["React", "Node.js", "AWS"], "experience_years": 5, "projects": ["Streaming Video Platform", "E-learning Portal"], "availability": "unavailable"},
+    {"id": 11, "name": "Karen Lopez", "skills": ["Scala", "Spark", "Data Engineering"], "experience_years": 7, "projects": ["Fraud Detection", "Recommendation Engine"], "availability": "available"},
+    {"id": 12, "name": "Luis Fernandez", "skills": ["Android", "Kotlin", "Firebase"], "experience_years": 4, "projects": ["Ride Sharing App", "Food Delivery"], "availability": "available"},
+    {"id": 13, "name": "Mina Hassan", "skills": ["AWS", "Docker", "Python"], "experience_years": 5, "projects": ["IoT Device Fleet", "Serverless APIs"], "availability": "available"},
+    {"id": 14, "name": "Noah Green", "skills": ["C#", ".NET", "Azure", "Healthcare"], "experience_years": 9, "projects": ["Hospital Billing", "Electronic Health Records"], "availability": "soon"},
+    {"id": 15, "name": "Olivia Rossi", "skills": ["React Native", "Expo", "REST APIs"], "experience_years": 3, "projects": ["Wellness App", "Travel Planner"], "availability": "available"},
+    {"id": 16, "name": "Pedro Alvarez", "skills": ["Python", "Django", "PostgreSQL"], "experience_years": 6, "projects": ["HRIS System", "Inventory Management"], "availability": "available"},
+    {"id": 17, "name": "Qi Zhang", "skills": ["Machine Learning", "PyTorch", "MLOps", "Healthcare"], "experience_years": 5, "projects": ["X-ray Analysis", "Patient Risk Prediction"], "availability": "available"},
+    {"id": 18, "name": "Ravi Narayan", "skills": ["AWS", "Docker", "Kubernetes", "Security"], "experience_years": 8, "projects": ["Cloud Security Hardening", "SRE Automation"], "availability": "unavailable"}
+  ]
+}
