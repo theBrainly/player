@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "app/api/proxy/**": {
+      "maxDuration": 60
+    },
+    "app/api/metadata/**": {
+      "maxDuration": 30
+    }
+  }
+}
