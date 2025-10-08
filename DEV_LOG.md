@@ -30,3 +30,4 @@
 - 2025-10-06T09:41:17: Update dependencies
 - 2025-10-07T09:19:19: Improve documentation
 - 2025-10-08T09:07:33: Update README.md
+- 2025-10-08T20:54:57: Improve documentation
