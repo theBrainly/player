@@ -64,3 +64,4 @@
 - 2025-11-12T09:39:09: Update README.md
 - 2025-11-12T23:05:47: Fix typos
 - 2025-11-15T09:29:14: Fix minor bugs
+- 2025-11-16T09:01:04: Improve documentation
