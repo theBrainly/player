@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  /* Cyber Noir Palette */
+  --color-neon-blue: #00f3ff;
+  --color-neon-purple: #bd00ff;
+  --color-neon-pink: #ff00d4;
+  --color-glass-black: rgba(10, 10, 10, 0.7);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+  --color-deep-black: #050505;
+  
+  /* Animations */
+  --animate-glow: glow 2s ease-in-out infinite alternate;
+  --animate-scanline: scanline 8s linear infinite;
+
+  @keyframes glow {
+    from { box-shadow: 0 0 5px rgba(0, 243, 255, 0.2); }
+    to { box-shadow: 0 0 20px rgba(0, 243, 255, 0.6), 0 0 10px rgba(0, 243, 255, 0.4); }
+  }
+}
+
+:root {
+  --background: #030305; /* Deepest Black */
+  --foreground: #e0e0e0;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans, system-ui, sans-serif);
+  min-height: 100vh;
+  /* Grid Background */
+  background-image: 
+    radial-gradient(circle at 50% -20%, rgba(0, 243, 255, 0.15) 0%, transparent 60%),
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px), 
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 100% 100%, 50px 50px, 50px 50px;
+  overflow-x: hidden;
+}
+
+/* Glass Utility Classes */
+.glass-panel {
+  background: var(--color-glass-black);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-glass-border);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.neon-text {
+  text-shadow: 0 0 10px rgba(0, 243, 255, 0.7);
+}
